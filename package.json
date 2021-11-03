@@ -1,0 +1,26 @@
+{
+  "name": "ledger-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js",
+    "dev": "nodemon --exec babel-node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^3.4.0",
+    "apollo-server": "^3.4.0",
+    "graphql": "^16.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "nodemon": "^2.0.14",
+    "prisma": "^3.4.0"
+  }
+}
